@@ -1,0 +1,80 @@
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/9.0.40
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 12 2020 15:35:02 UTC
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 9.0.40.0
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_261\jre
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_261-b12
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\pakki\AppData\Local\Temp\cargo\conf
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Tools\apache-tomcat-9.0.40
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms128m
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx512m
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Tools\apache-tomcat-9.0.40
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\pakki\AppData\Local\Temp\cargo\conf
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\pakki\AppData\Local\Temp\cargo\conf\temp
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 23, 2020 1:59:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\pakki\AppData\Local\Temp\cargo\conf\conf/logging.properties
+Nov 23, 2020 1:59:19 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+Nov 23, 2020 1:59:19 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Nov 23, 2020 1:59:19 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Nov 23, 2020 1:59:19 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+Nov 23, 2020 1:59:19 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8081"]
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [696] milliseconds
+Nov 23, 2020 1:59:20 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Nov 23, 2020 1:59:20 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.40]
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Users\pakki\AppData\Local\Temp\cargo\conf\webapps\cargocpc.war]
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Users\pakki\AppData\Local\Temp\cargo\conf\webapps\cargocpc.war] has finished in [202] ms
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [C:\Users\pakki\AppData\Local\Temp\cargo\conf\webapps\Servlets.war]
+Nov 23, 2020 1:59:20 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [C:\Users\pakki\AppData\Local\Temp\cargo\conf\webapps\Servlets.war] has finished in [149] ms
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\pakki\AppData\Local\Temp\cargo\conf\webapps\host-manager]
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\pakki\AppData\Local\Temp\cargo\conf\webapps\host-manager] has finished in [41] ms
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [C:\Users\pakki\AppData\Local\Temp\cargo\conf\webapps\manager]
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\pakki\AppData\Local\Temp\cargo\conf\webapps\manager] has finished in [26] ms
+Nov 23, 2020 1:59:20 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8081"]
+Nov 23, 2020 1:59:20 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [467] milliseconds
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/pakki/AppData/Local/Temp/cargo/conf/webapps/Servlets/WEB-INF/lib/log4j-slf4j-impl-2.13.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.

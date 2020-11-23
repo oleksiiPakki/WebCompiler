@@ -1,0 +1,188 @@
+io/teamdev/javaclasses/impl/fsm/SwitchStructure.java
+ io.teamdev.javaclasses.impl.fsm.SwitchStructure
+io/teamdev/javaclasses/impl/runtime/ValueHolder.java
+ io.teamdev.javaclasses.impl.runtime.ValueHolder
+io/teamdev/javaclasses/impl/fsm/ExpressionFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/SwitchState.java
+ io.teamdev.javaclasses.impl.fsm.SwitchState
+io/teamdev/javaclasses/impl/fsm/ExpressionWithBracketsFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.ExpressionWithBracketsFiniteStateMachine
+io/teamdev/javaclasses/impl/runtime/ShuntingYard.java
+ io.teamdev.javaclasses.impl.runtime.ShuntingYard
+io/teamdev/javaclasses/impl/fsm/ListOfDefaultExecutingStatementsState.java
+ io.teamdev.javaclasses.impl.fsm.ListOfDefaultExecutingStatementsState
+io/teamdev/javaclasses/impl/fsm/AlphabeticCharacterState.java
+ io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState
+io/teamdev/javaclasses/impl/abstracts/IncorrectFormatOfExpressionException.java
+ io.teamdev.javaclasses.impl.abstracts.IncorrectFormatOfExpressionException
+io/teamdev/javaclasses/impl/runtime/ValueHolderVisitor.java
+ io.teamdev.javaclasses.impl.runtime.ValueHolderVisitor
+io/teamdev/javaclasses/impl/runtime/SubtractionArithmeticBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.SubtractionArithmeticBinaryOperator
+io/teamdev/javaclasses/impl/fsm/SwitchWordState.java
+ io.teamdev.javaclasses.impl.fsm.SwitchWordState
+io/teamdev/javaclasses/impl/abstracts/State.java
+ io.teamdev.javaclasses.impl.abstracts.State
+io/teamdev/javaclasses/impl/fsm/CalculableState.java
+ io.teamdev.javaclasses.impl.fsm.CalculableState
+io/teamdev/javaclasses/impl/fsm/BooleanExpressionState.java
+ io.teamdev.javaclasses.impl.fsm.BooleanExpressionState
+io/teamdev/javaclasses/impl/fsm/ProgramFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.ProgramFiniteStateMachine
+io/teamdev/javaclasses/impl/runtime/DoubleValueHolder.java
+ io.teamdev.javaclasses.impl.runtime.DoubleValueHolder
+io/teamdev/javaclasses/impl/fsm/InitVariableFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.InitVariableFiniteStateMachine
+io/teamdev/javaclasses/impl/runtime/Function.java
+ io.teamdev.javaclasses.impl.runtime.Function
+io/teamdev/javaclasses/impl/fsm/StatementState.java
+ io.teamdev.javaclasses.impl.fsm.StatementState
+io/teamdev/javaclasses/impl/fsm/package-info.java
+ io.teamdev.javaclasses.impl.fsm.package-info
+io/teamdev/javaclasses/impl/fsm/OpeningBracketForExpressionState.java
+ io.teamdev.javaclasses.impl.fsm.OpeningBracketForExpressionState
+io/teamdev/javaclasses/impl/runtime/SumFunction.java
+ io.teamdev.javaclasses.impl.runtime.SumFunction
+io/teamdev/javaclasses/impl/abstracts/FSMFactory.java
+ io.teamdev.javaclasses.impl.abstracts.FSMFactory
+ io.teamdev.javaclasses.impl.abstracts.FSMFactory$TypeFSM
+io/teamdev/javaclasses/impl/fsm/ListOfStatementsFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.ListOfStatementsFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/NameForVariableState.java
+ io.teamdev.javaclasses.impl.fsm.NameForVariableState
+io/teamdev/javaclasses/impl/runtime/DivisionArithmeticBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.DivisionArithmeticBinaryOperator
+io/teamdev/javaclasses/impl/fsm/NameForFunctionState.java
+ io.teamdev.javaclasses.impl.fsm.NameForFunctionState
+io/teamdev/javaclasses/impl/fsm/InitVariableState.java
+ io.teamdev.javaclasses.impl.fsm.InitVariableState
+io/teamdev/javaclasses/impl/runtime/MaxFunction.java
+ io.teamdev.javaclasses.impl.runtime.MaxFunction
+io/teamdev/javaclasses/impl/fsm/BooleanExpressionFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.BooleanExpressionFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/ExpressionWithBracketsState.java
+ io.teamdev.javaclasses.impl.fsm.ExpressionWithBracketsState
+io/teamdev/javaclasses/impl/fsm/AssignmentCharacterState.java
+ io.teamdev.javaclasses.impl.fsm.AssignmentCharacterState
+io/teamdev/javaclasses/impl/fsm/DefaultWordFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.DefaultWordFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/StatementFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.StatementFiniteStateMachine
+io/teamdev/javaclasses/impl/runtime/MinFunction.java
+ io.teamdev.javaclasses.impl.runtime.MinFunction
+io/teamdev/javaclasses/impl/fsm/CheckedNumberState.java
+ io.teamdev.javaclasses.impl.fsm.CheckedNumberState
+io/teamdev/javaclasses/impl/fsm/DefaultFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.DefaultFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/ListOfCaseExecutingStatementsState.java
+ io.teamdev.javaclasses.impl.fsm.ListOfCaseExecutingStatementsState
+io/teamdev/javaclasses/impl/runtime/BinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.BinaryOperator
+io/teamdev/javaclasses/impl/fsm/ClosingBracketState.java
+ io.teamdev.javaclasses.impl.fsm.ClosingBracketState
+io/teamdev/javaclasses/impl/fsm/FunctionFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.FunctionFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/DefaultState.java
+ io.teamdev.javaclasses.impl.fsm.DefaultState
+io/teamdev/javaclasses/impl/runtime/GreaterThanOrEqualsToBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.GreaterThanOrEqualsToBinaryOperator
+io/teamdev/javaclasses/impl/fsm/CalculableFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.CalculableFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/SwitchFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.SwitchFiniteStateMachine
+io/teamdev/javaclasses/impl/runtime/BooleanValueHolder.java
+ io.teamdev.javaclasses.impl.runtime.BooleanValueHolder
+io/teamdev/javaclasses/impl/runtime/PrintFunction.java
+ io.teamdev.javaclasses.impl.runtime.PrintFunction
+io/teamdev/javaclasses/impl/fsm/CaseWordFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.CaseWordFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/DigitCharacterState.java
+ io.teamdev.javaclasses.impl.fsm.DigitCharacterState
+io/teamdev/javaclasses/impl/fsm/FunctionState.java
+ io.teamdev.javaclasses.impl.fsm.FunctionState
+io/teamdev/javaclasses/impl/runtime/EqualsToBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.EqualsToBinaryOperator
+io/teamdev/javaclasses/impl/fsm/SignCharacterState.java
+ io.teamdev.javaclasses.impl.fsm.SignCharacterState
+io/teamdev/javaclasses/impl/fsm/CaseState.java
+ io.teamdev.javaclasses.impl.fsm.CaseState
+io/teamdev/javaclasses/impl/fsm/ListOfStatementsState.java
+ io.teamdev.javaclasses.impl.fsm.ListOfStatementsState
+io/teamdev/javaclasses/impl/fsm/SwitchWordFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.SwitchWordFiniteStateMachine
+io/teamdev/javaclasses/impl/runtime/PiFunction.java
+ io.teamdev.javaclasses.impl.runtime.PiFunction
+io/teamdev/javaclasses/impl/runtime/InitializationException.java
+ io.teamdev.javaclasses.impl.runtime.InitializationException
+io/teamdev/javaclasses/impl/runtime/RuntimeEnvironment.java
+ io.teamdev.javaclasses.impl.runtime.RuntimeEnvironment
+ io.teamdev.javaclasses.impl.runtime.RuntimeEnvironment$1
+ io.teamdev.javaclasses.impl.runtime.RuntimeEnvironment$Memory
+io/teamdev/javaclasses/impl/runtime/MultiplyingArithmeticBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.MultiplyingArithmeticBinaryOperator
+io/teamdev/javaclasses/impl/fsm/SwitchVariableState.java
+ io.teamdev.javaclasses.impl.fsm.SwitchVariableState
+io/teamdev/javaclasses/impl/runtime/AdditionArithmeticBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.AdditionArithmeticBinaryOperator
+io/teamdev/javaclasses/impl/runtime/FunctionStructure.java
+ io.teamdev.javaclasses.impl.runtime.FunctionStructure
+io/teamdev/javaclasses/impl/runtime/ProgramExecutionException.java
+ io.teamdev.javaclasses.impl.runtime.ProgramExecutionException
+io/teamdev/javaclasses/impl/runtime/GreaterThanBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.GreaterThanBinaryOperator
+io/teamdev/javaclasses/impl/fsm/NumberState.java
+ io.teamdev.javaclasses.impl.fsm.NumberState
+io/teamdev/javaclasses/impl/abstracts/Compiler.java
+ io.teamdev.javaclasses.impl.abstracts.Compiler
+io/teamdev/javaclasses/impl/fsm/TransitState.java
+ io.teamdev.javaclasses.impl.fsm.TransitState
+io/teamdev/javaclasses/impl/runtime/DoubleValueReader.java
+ io.teamdev.javaclasses.impl.runtime.DoubleValueReader
+io/teamdev/javaclasses/impl/fsm/CaseFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.CaseFiniteStateMachine
+io/teamdev/javaclasses/impl/runtime/PowerFunction.java
+ io.teamdev.javaclasses.impl.runtime.PowerFunction
+io/teamdev/javaclasses/impl/runtime/NotEqualsToBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.NotEqualsToBinaryOperator
+io/teamdev/javaclasses/impl/runtime/ArithmeticBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.ArithmeticBinaryOperator
+io/teamdev/javaclasses/impl/runtime/LessThanOrEqualsToBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.LessThanOrEqualsToBinaryOperator
+io/teamdev/javaclasses/impl/runtime/Command.java
+ io.teamdev.javaclasses.impl.runtime.Command
+io/teamdev/javaclasses/impl/fsm/NameFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/VariableState.java
+ io.teamdev.javaclasses.impl.fsm.VariableState
+io/teamdev/javaclasses/impl/fsm/BooleanBinaryOperatorState.java
+ io.teamdev.javaclasses.impl.fsm.BooleanBinaryOperatorState
+ io.teamdev.javaclasses.impl.fsm.BooleanBinaryOperatorState$PossibleSignsOfBooleanOperators
+io/teamdev/javaclasses/impl/fsm/ExpressionState.java
+ io.teamdev.javaclasses.impl.fsm.ExpressionState
+io/teamdev/javaclasses/calculator/MathExpressionCalculator.java
+ io.teamdev.javaclasses.calculator.MathExpressionCalculator
+io/teamdev/javaclasses/impl/abstracts/FiniteStateMachine.java
+ io.teamdev.javaclasses.impl.abstracts.FiniteStateMachine
+io/teamdev/javaclasses/impl/runtime/BooleanBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.BooleanBinaryOperator
+io/teamdev/javaclasses/impl/fsm/CaseWordState.java
+ io.teamdev.javaclasses.impl.fsm.CaseWordState
+io/teamdev/javaclasses/impl/abstracts/DeadLockException.java
+ io.teamdev.javaclasses.impl.abstracts.DeadLockException
+io/teamdev/javaclasses/impl/fsm/ArithmeticBinaryOperatorState.java
+ io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState
+io/teamdev/javaclasses/impl/runtime/WrongCountOfArgumentsException.java
+ io.teamdev.javaclasses.impl.runtime.WrongCountOfArgumentsException
+io/teamdev/javaclasses/impl/fsm/ArgumentState.java
+ io.teamdev.javaclasses.impl.fsm.ArgumentState
+io/teamdev/javaclasses/impl/fsm/NumberFiniteStateMachine.java
+ io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine
+io/teamdev/javaclasses/impl/fsm/DefaultWordState.java
+ io.teamdev.javaclasses.impl.fsm.DefaultWordState
+io/teamdev/javaclasses/impl/runtime/LessThanBinaryOperator.java
+ io.teamdev.javaclasses.impl.runtime.LessThanBinaryOperator
+io/teamdev/javaclasses/impl/fsm/FSMFactoryImpl.java
+ io.teamdev.javaclasses.impl.fsm.FSMFactoryImpl
+io/teamdev/javaclasses/language/AlmostNormalLanguageCompiler.java
+ io.teamdev.javaclasses.language.AlmostNormalLanguageCompiler

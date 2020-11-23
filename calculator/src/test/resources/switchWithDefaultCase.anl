@@ -1,0 +1,26 @@
+m = pow(2,3); n = pow(3,2);
+
+switch(m | n) {
+
+    case 6: {
+        m = pow(m ,2);
+        n = pow(n, 2);
+    }
+
+    case 7: {
+        m = m * 2;
+        n = n * 2;
+    }
+
+    case 10: {
+        m = m - 2;
+        n = n - 2;
+    }
+
+    default: {
+        m = 0;
+        n = 0;
+    }
+}
+
+print(m, n);

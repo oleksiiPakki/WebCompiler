@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Пример веб-страницы</title>
+</head>
+<body>
+<div style="text-align: center;">
+    <h1>Web compiler</h1>
+</div>
+
+
+<div align="center">
+    <form>
+        <textarea id="code" style="width: 300px; height: 300px;">Enter your code here!</textarea>
+        <textarea id="result" style="width: 300px; height: 300px;">The result of execution</textarea>
+    </form>
+
+    <button id="request">Execute</button>
+
+</div>
+
+
+<script type="text/javascript">
+var btn = document.getElementById('request');
+var result = document.getElementById('result');
+var request = new XMLHttpRequest();
+
+request.onreadystatechange = function() {
+  if(request.readyState === 4 && request.status === 200) {
+      result.innerHTML = request.responseText;
+    } else {
+      result.innerHTML = 'An error osccurred during your request: ' +  request.status + ' ' + request.statusText;
+    }
+}
+
+btn.addEventListener('click', function() {
+  request.open('POST', 'http://localhost:8081/Servlets/servlet');
+  request.send(document.getElementById('code').value);
+});
+
+</script>
+
+</body>
+</html>

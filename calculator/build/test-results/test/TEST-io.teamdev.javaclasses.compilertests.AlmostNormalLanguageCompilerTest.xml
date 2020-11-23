@@ -1,0 +1,1947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-21T23:53:20" hostname="DESKTOP-R7HB7HU" time="0.273">
+  <properties/>
+  <testcase name="testEvaluationOfSwitchOperator(String, String)[1]" classname="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" time="0.171"/>
+  <testcase name="testEvaluationOfSwitchOperator(String, String)[2]" classname="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" time="0.029"/>
+  <testcase name="testEvaluationOfSwitchOperator(String, String)[3]" classname="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" time="0.009"/>
+  <testcase name="testEvaluationOfSwitchOperator(String, String)[4]" classname="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" time="0.021"/>
+  <testcase name="testEvaluationOfIncorrectFormatExpression(String, String)[1]" classname="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" time="0.009"/>
+  <testcase name="testEvaluationOfIncorrectFormatExpression(String, String)[2]" classname="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" time="0.001"/>
+  <testcase name="testEvaluationOfIncorrectFormatExpression(String, String)[3]" classname="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" time="0.003"/>
+  <testcase name="testCorrectInitialization(String, String)[1]" classname="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" time="0.005"/>
+  <testcase name="testCorrectInitialization(String, String)[2]" classname="io.teamdev.javaclasses.compilertests.AlmostNormalLanguageCompilerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: +
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: *
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: c
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: h
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: c
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: h
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: *
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: -
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: c
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: h
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: c
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: h
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: *
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: *
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: -
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: -
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: c
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: h
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: c
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: h
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: *
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: *
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: -
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: -
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: /
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: c
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: h
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: c
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: h
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: o
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: w
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: *
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: *
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: -
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: -
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: x
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: e
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: u
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: l
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: x
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: +
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: +
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: *
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: e
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: s
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: u
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: l
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: x
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: b
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: g
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: N
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: e
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: +
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: p
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: r
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: n
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: t
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: x
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: x
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NameFiniteStateMachine - Name finite machine is started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: b
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: i
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: g
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: N
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: a
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: m
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.AlphabeticCharacterState - Fsm in a DigitState: e
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ArithmeticBinaryOperatorState - Fsm in a BinaryOperatorState: -
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.ExpressionFiniteStateMachine - Expression Finite machine finished
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine started
+
+[Test worker] INFO io.teamdev.javaclasses.impl.fsm.NumberFiniteStateMachine - Number Finite machine finished
+
+]]></system-err>
+</testsuite>

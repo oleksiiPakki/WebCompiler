@@ -1,0 +1,26 @@
+m = 2 + 2 * 2;
+
+switch(m) {
+
+    case 6: {
+        m = pow(m ,2);
+    }
+
+    case 7: {
+        m = m * 2;
+    }
+
+    case 8: {
+        m = m / 2;
+    }
+
+    case 9: {
+        m = m - 2;
+    }
+
+    default: {
+        print(m / 0);
+    }
+}
+
+print(m);

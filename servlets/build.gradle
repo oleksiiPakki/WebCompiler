@@ -1,0 +1,87 @@
+plugins {
+    id 'java'
+    id 'war'
+    id 'com.bmuschko.cargo'
+    id 'com.bmuschko.cargo-base'
+}
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+apply plugin : "application"
+
+mainClassName = "io/teamdev/javaclasses/servlets/MyFirstServlet"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+
+    junitVersion = '5.6.2'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+
+dependencies {
+
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+    implementation project(':calculator')
+
+    dependencies {
+        def cargoVersion = '1.7.10'
+        cargo "org.codehaus.cargo:cargo-core-uberjar:$cargoVersion",
+                "org.codehaus.cargo:cargo-licensed-dtds:$cargoVersion",
+                "org.codehaus.cargo:cargo-ant:$cargoVersion"
+    }
+
+    compileOnly('javax:javaee-web-api:8.0.1')
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+}
+
+test {
+    useJUnitPlatform()    }
+
+war {
+    archiveFileName = "Servlets.war"
+}
+
+cargo {
+    containerId = 'tomcat9x'
+    port = 9080
+
+
+
+    deployable {
+        context = 'Servlets'
+    }
+
+    local {
+        homeDir = file('C:/Tools/apache-tomcat-9.0.40')
+        outputFile = file('build/output.log')
+        startStopTimeout = 60000
+
+        containerProperties {
+            property 'cargo.tomcat.ajp.port', 9081
+        }
+    }
+}
+
+
+
+task myTomcatRun(type: com.bmuschko.gradle.cargo.tasks.local.CargoRunLocal) {
+    containerId = 'tomcat9x'
+    homeDir = file('C:/Tools/apache-tomcat-9.0.40')
+    rmiPort = 8071
+    port = 8081
+
+}
